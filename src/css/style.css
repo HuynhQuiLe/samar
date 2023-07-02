@@ -249,11 +249,18 @@ header ul li a i {
   margin-bottom: 15px;
 }
 
-.number-counter__item h4 {
+.number-counter__item h4,
+.number-counter__item h4 span {
   font-size: 65px;
   font-weight: 800;
   color: var(--color-pink);
   line-height: 1;
+  /* width: 50%; */
+}
+
+.number-counter__item h4 span {
+  display: inline-block;
+  width: 90px;
 }
 
 /* <!-- 6. FEATURES --> */
@@ -344,6 +351,20 @@ header ul li a i {
 }
 .features__img_container img {
   width: 100%;
+  animation: slowlyRotate 5s infinite;
+}
+
+@keyframes slowlyRotate {
+  0% {
+    transform: rotate(1deg) translate(2px, 2px);
+  }
+
+  50% {
+    transform: rotate(-1deg) translate(-2px, -2px);
+  }
+  100% {
+    transform: rotate(1deg) translate(2px, 2px);
+  }
 }
 
 /* <!-- 7. PORTFOLIO --> */
@@ -486,6 +507,10 @@ header ul li a i {
 .blog__card-item img {
   width: 100%;
   border-radius: 8px;
+}
+
+.blog__card-item img:active {
+  cursor: grab;
 }
 
 .blog__card-item_content {
@@ -762,4 +787,32 @@ footer::before {
 
 .footer_bottom .section__width i:hover {
   background: var(--color-pink);
+}
+
+.backToTop {
+  width: 50px;
+  height: 50px;
+  background: var(--color-pink);
+  border-radius: 8px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  transition: all 0.2s;
+  box-shadow: -4px 4px 24px -10px var(--color-pink);
+  z-index: 10;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.backToTop i {
+  color: var(--color-white);
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
 }

@@ -38,6 +38,25 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- FANCY BOX -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <!-- SLICK -->
+    <link rel="stylesheet" href="./src/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./src/slick-1.8.1/slick/slick-theme.css" />
+
+    <!-- ANIMATE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- WOW -->
+    <link rel="stylesheet" href="./src/WOW-master/css/libs/animate.css" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="./src/css/flaticon/flaticon.css" />
     <link rel="stylesheet" href="./src/css/variable.css" />
@@ -100,17 +119,23 @@
       <div class="section__width">
         <div class="banner__container">
           <div class="banner__content">
-            <p class="p__sub-heading">We are The Best</p>
-            <h2 class="h2__heading">
+            <p class="p__sub-heading animate__animated animate__fadeInUp">
+              We are The Best
+            </p>
+            <h2
+              class="h2__heading animate__animated animate__fadeInUp animate__delay-1s"
+            >
               Freelance Product <br />
               Designer Running
             </h2>
-            <p class="p__18">
+            <p
+              class="p__18 animate__animated animate__fadeInUp animate__delay-2s"
+            >
               We develop the relationships that underpin the next phase in
               your<br />
               organisation’s growth.
             </p>
-            <ul>
+            <ul class="animate__animated animate__fadeInUp animate__delay-3s">
               <li>
                 <i class="las la-check"></i>
                 Master's degree in designing
@@ -120,10 +145,16 @@
                 Outstanding mobile design
               </li>
             </ul>
-            <button class="custom__button">get started</button>
+            <button
+              class="custom__button animate__animated animate__fadeInUp animate__delay-4s"
+            >
+              get started
+            </button>
           </div>
           <div class="banner__img">
-            <div class="banner__img-container">
+            <div
+              class="banner__img-container animate__animated animate__fadeInUp animate__delay-3s"
+            >
               <img src="./src/img/pic3_1.png" alt="banner" />
             </div>
           </div>
@@ -178,10 +209,18 @@
     <!-- 4. ABOUT US -->
     <div class="aboutUs">
       <div class="section__padding">
-        <div class="aboutUs__img">
+        <div
+          class="aboutUs__img wow animate__animated animate__fadeInLeft"
+          data-wow-duration="2s"
+          data-wow-delay="0.2s"
+        >
           <img src="./src/img/pic1.jpg" alt="about us photo" />
         </div>
-        <div class="aboutUs__content">
+        <div
+          class="aboutUs__content wow animate__animated animate__fadeInRight"
+          data-wow-duration="2s"
+          data-wow-delay="0.2s"
+        >
           <p class="p__sub-heading">About Us</p>
           <h2 class="h2__heading">
             Build Your<br />
@@ -223,22 +262,22 @@
       <div class="section__width">
         <div class="number-counter__item">
           <i class="flaticon-smile"></i>
-          <h4>18 Ml</h4>
+          <h4><span class="counter">18</span> Ml</h4>
           <p class="p__18">Satisfied Clients</p>
         </div>
         <div class="number-counter__item">
           <i class="flaticon-line-chart"></i>
-          <h4>20 Ml</h4>
+          <h4><span class="counter">20</span> Ml</h4>
           <p class="p__18">Project Completed</p>
         </div>
         <div class="number-counter__item">
           <i class="flaticon-startup"></i>
-          <h4>30 Ml</h4>
+          <h4><span class="counter">30</span> Ml</h4>
           <p class="p__18">Project Lunched</p>
         </div>
         <div class="number-counter__item">
           <i class="flaticon-confetti"></i>
-          <h4>50</h4>
+          <h4 class="counter">50</h4>
           <p class="p__18">Years Completed</p>
         </div>
       </div>
@@ -249,7 +288,11 @@
       <div class="section__width">
         <div class="section__padding">
           <div class="features__content">
-            <div class="features__content_title">
+            <div
+              class="features__content_title wow animate__animated animate__fadeInLeft"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+            >
               <p class="p__sub-heading">Our Features</p>
               <h2 class="h2__heading">
                 Behind The Story <br />
@@ -258,7 +301,11 @@
             </div>
 
             <div class="features__content_card">
-              <div class="features__content_card-item">
+              <div
+                class="features__content_card-item wow animate__animated animate__fadeInRight"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
                 <div class="features__content_card-item_wrapper">
                   <i class="flaticon-idea"></i>
                   <div>
@@ -271,7 +318,11 @@
                 </div>
               </div>
 
-              <div class="features__content_card-item">
+              <div
+                class="features__content_card-item wow animate__animated animate__fadeInRight"
+                data-wow-duration="2s"
+                data-wow-delay="0.6s"
+              >
                 <div class="features__content_card-item_wrapper">
                   <i class="flaticon-coding"></i>
                   <div>
@@ -283,7 +334,11 @@
                   </div>
                 </div>
               </div>
-              <div class="features__content_card-item">
+              <div
+                class="features__content_card-item wow animate__animated animate__fadeInRight"
+                data-wow-duration="2s"
+                data-wow-delay="0.8s"
+              >
                 <div class="features__content_card-item_wrapper">
                   <i class="flaticon-rocket"></i>
                   <div>
@@ -315,10 +370,19 @@
             <h2 class="h2__heading">Our Latest Work</h2>
           </div>
           <div class="portfolio__gallery">
-            <div class="portfolio__gallery_item">
+            <div
+              class="portfolio__gallery_item wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+            >
               <img src="./src/img/pic1_2.jpg" alt="portfolio__gallery" />
               <div class="portfolio__overlay">
-                <i class="la la-plus"></i>
+                <i
+                  class="la la-plus"
+                  href="./src/img/pic1_2.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #1"
+                ></i>
                 <div>
                   <h3>Software Landing</h3>
                   <p>By Jhone Doe</p>
@@ -326,50 +390,95 @@
               </div>
             </div>
 
-            <div class="portfolio__gallery_item">
+            <div
+              class="portfolio__gallery_item wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+            >
               <img src="./src/img/pic2_1.jpg" alt="portfolio__gallery" />
               <div class="portfolio__overlay">
-                <i class="la la-plus"></i>
+                <i
+                  class="la la-plus"
+                  href="./src/img/pic2_1.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #2"
+                ></i>
                 <div>
                   <h3>Software Landing</h3>
                   <p>By Jhone Doe</p>
                 </div>
               </div>
             </div>
-            <div class="portfolio__gallery_item">
+            <div
+              class="portfolio__gallery_item wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.5s"
+            >
               <img src="./src/img/pic3_1.jpg" alt="portfolio__gallery" />
               <div class="portfolio__overlay">
-                <i class="la la-plus"></i>
+                <i
+                  class="la la-plus"
+                  href="./src/img/pic3_1.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #3"
+                ></i>
                 <div>
                   <h3>Software Landing</h3>
                   <p>By Jhone Doe</p>
                 </div>
               </div>
             </div>
-            <div class="portfolio__gallery_item">
+            <div
+              class="portfolio__gallery_item wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.8s"
+            >
               <img src="./src/img/pic4.jpg" alt="portfolio__gallery" />
               <div class="portfolio__overlay">
-                <i class="la la-plus"></i>
+                <i
+                  class="la la-plus"
+                  href="./src/img/pic4.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #4"
+                ></i>
                 <div>
                   <h3>Software Landing</h3>
                   <p>By Jhone Doe</p>
                 </div>
               </div>
             </div>
-            <div class="portfolio__gallery_item">
+            <div
+              class="portfolio__gallery_item wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="1s"
+            >
               <img src="./src/img/pic5.jpg" alt="portfolio__gallery" />
               <div class="portfolio__overlay">
-                <i class="la la-plus"></i>
+                <i
+                  class="la la-plus"
+                  href="./src/img/pic5.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #5"
+                ></i>
                 <div>
                   <h3>Software Landing</h3>
                   <p>By Jhone Doe</p>
                 </div>
               </div>
             </div>
-            <div class="portfolio__gallery_item">
+            <div
+              class="portfolio__gallery_item wow animate__animated animate__fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="1.2s"
+            >
               <img src="./src/img/pic6.jpg" alt="portfolio__gallery" />
               <div class="portfolio__overlay">
-                <i class="la la-plus"></i>
+                <i
+                  class="la la-plus"
+                  href="./src/img/pic6.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #6"
+                ></i>
                 <div>
                   <h3>Software Landing</h3>
                   <p>By Jhone Doe</p>
@@ -416,7 +525,56 @@
             </div>
 
             <div class="blog__card-item">
-              <img src="./src/img/pic1_1.jpg" alt="blog photo" />
+              <img src="./src/img/pic2.jpg" alt="blog photo" />
+              <div class="blog__card-item_content">
+                <p class="blog__date">23 MARCH 2022</p>
+
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>
+                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                  ac aliquam. Phasellus justo quam.
+                </p>
+              </div>
+              <div class="blog__card-item_bottom">
+                <p>
+                  <i class="las la-user-circle"></i>
+                  &nbsp;By&nbsp;
+                  <span>Johne Doe</span>
+                </p>
+                <p>
+                  <i class="las la-comment"></i>
+                  &nbsp;
+                  <span>Comments 15</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="blog__card-item">
+              <img src="./src/img/pic3.jpg" alt="blog photo" />
+              <div class="blog__card-item_content">
+                <p class="blog__date">23 MARCH 2022</p>
+
+                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <p>
+                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                  ac aliquam. Phasellus justo quam.
+                </p>
+              </div>
+              <div class="blog__card-item_bottom">
+                <p>
+                  <i class="las la-user-circle"></i>
+                  &nbsp;By&nbsp;
+                  <span>Johne Doe</span>
+                </p>
+                <p>
+                  <i class="las la-comment"></i>
+                  &nbsp;
+                  <span>Comments 15</span>
+                </p>
+              </div>
+            </div>
+            <div class="blog__card-item">
+              <img src="./src/img/pic2.jpg" alt="blog photo" />
               <div class="blog__card-item_content">
                 <p class="blog__date">23 MARCH 2022</p>
 
@@ -464,50 +622,6 @@
                 </p>
               </div>
             </div>
-
-            <!-- <div class="blog__card-item">
-              <img src="./src/img/pic1_1.jpg" alt="blog photo" />
-              <div class="blog__card-item_content">
-                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                <p>
-                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
-                  ac aliquam. Phasellus justo quam.
-                </p>
-              </div>
-              <div class="blog__card-item_bottom">
-                <p>
-                  <i class="las la-user-circle"></i>
-                  By
-                  <span>Johne Doe</span>
-                </p>
-                <p>
-                  <i class="las la-comment"></i>
-                  <span>Comments 15</span>
-                </p>
-              </div>
-            </div>
-
-            <div class="blog__card-item">
-              <img src="./src/img/pic1_1.jpg" alt="blog photo" />
-              <div class="blog__card-item_content">
-                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                <p>
-                  Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
-                  ac aliquam. Phasellus justo quam.
-                </p>
-              </div>
-              <div class="blog__card-item_bottom">
-                <p>
-                  <i class="las la-user-circle"></i>
-                  By
-                  <span>Johne Doe</span>
-                </p>
-                <p>
-                  <i class="las la-comment"></i>
-                  <span>Comments 15</span>
-                </p>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -517,7 +631,11 @@
 
     <footer>
       <div class="section__width">
-        <div class="footer__newsletter">
+        <div
+          class="footer__newsletter wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="0.2s"
+        >
           <p>Subscribe To Our Newsletter</p>
           <form>
             <input type="text" placeholder="Your Email Address" />
@@ -526,7 +644,11 @@
             </button>
           </form>
         </div>
-        <div class="footer__top">
+        <div
+          class="footer__top wow animate__animated animate__fadeIn"
+          data-wow-duration="2s"
+          data-wow-delay="0.7s"
+        >
           <div class="footer__col">
             <a href="#">
               <img src="./src/img/logo-white.png" alt="logo white" />
@@ -681,5 +803,43 @@
         </div>
       </div>
     </footer>
+
+    <div class="backToTop cd-top text-replace js-cd-top">
+      <a href="#">
+        <i class="fa fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- counter up -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+      integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- fancy box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- SLICK   -->
+    <script src="./src/slick-1.8.1/slick/slick.min.js"></script>
+
+    <!-- WOW -->
+    <script src="./src/WOW-master/dist/wow.min.js"></script>
+
+    <script src="./src/js/util.js"></script>
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
