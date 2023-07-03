@@ -44,14 +44,11 @@ Fancybox.bind('[data-fancybox="gallery"]', {
   // Your custom options
 });
 
-// SLICK CAROUSEL
-
-$(".blog__card").slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  arrows: false,
-  swipeToSlide: true,
+// OWL CAROUSEL
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: false,
 });
 
 // WOW

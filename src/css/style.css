@@ -497,13 +497,14 @@ header ul li a i {
 }
 
 .blog__card-item {
-  width: 379.667px;
   background: rgba(245, 95, 141, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  margin-right: 30px;
 }
 
+.owl-carousel.owl-drag .owl-item.active {
+  margin-right: 30px;
+}
 .blog__card-item img {
   width: 100%;
   border-radius: 8px;
